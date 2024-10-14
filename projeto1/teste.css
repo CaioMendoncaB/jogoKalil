@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding-left: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+
+body{
+     background-image: url(./Images/Intro3.png) ;  
+      background-repeat: no-repeat;  
+      background-position-y: 13%;
+      background-position-x:center ;
+}
