@@ -8,10 +8,12 @@ function start() {
 
 function testa(){
     const formulaEnviada = document.getElementById("form").value
-    if(formulaEnviada=="resp1"){
-        window.location.href="index.html";
+    if(formulaEnviada=="resp4"){
+        window.location.href="fase.html";
+    }
+    if(formulaEnviada!=="resp4") {
+        window.location.href="start.html";
     }
 
 }
-
 
