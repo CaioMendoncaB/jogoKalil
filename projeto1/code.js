@@ -6,15 +6,14 @@ function start() {
 }
 
 
-
-const btn = document.getElementById("resposta")
-btn.addEventListener("click",function(){
+function testa(){
     const formulaEnviada = document.getElementById("form").value
-    alert(`Oi ${formulaEnviada}`)
-    if(formulaEnviada=="bota"){
-        window.location.href="index.html";
+    if(formulaEnviada=="resp3"){
+        window.location.href="fase.html";
+    }
+    if(formulaEnviada!=="resp3") {
+        window.location.href="start.html";
     }
 
-},false
-)
+}
 
